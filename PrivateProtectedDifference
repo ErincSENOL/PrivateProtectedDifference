@@ -1,0 +1,42 @@
+//Protected
+    public class ClassA
+    {
+        protected void bilgiGoster()
+        {
+            Console.WriteLine("İşlem yapıldı...");
+        }
+        public string stringA { get; set; }
+        protected void bilgiGosterProtedted()
+        {
+            bilgiGoster();
+        }
+        
+    }
+    public class ClassB : ClassA
+    {
+        public void HataGonsterInherit()
+        {
+            bilgiGoster();
+        }
+    }
+    //Private
+    public class ClassC
+    {
+        private void bilgiGoster()
+        {
+            Console.WriteLine("İşlem yapıldı...");
+        }
+        public string stringC { get; set; }
+        protected void bilgiGosterProtedted()
+        {
+            bilgiGoster();
+        }
+
+    }
+    public class ClassD : ClassC
+    {
+        public void bilgiGosterInherit()
+        {
+            //bilgiGoster(); //Protected olsaydı erişilebilirdi
+        }
+    }
