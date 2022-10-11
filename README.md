@@ -6,4 +6,5 @@ ClassC ve ClassD Private değişken örneğidir. Private:Sadece tanımlandığı
 
 Public and Private Difference 
 
-![image](https://user-images.githubusercontent.com/82088135/195176077-c7491bc1-8913-4ea5-8f3e-862d848ff8bc.png)
+
+![image](https://user-images.githubusercontent.com/82088135/195176743-d584e76c-4cea-4803-a87e-eea4dbd28314.png)
